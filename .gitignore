@@ -4,9 +4,16 @@
 *.obj
 *.pdb
 *.ilk
+
+# Common build dirs
 /build/
 /bin/
 /out/
 
-/.vscode/
-/.idea/
+# IDE/project files
+.vscode/
+.idea/
+*.user
+*.suo
+*.vcxproj.user
+*.log
