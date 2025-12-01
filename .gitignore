@@ -1,0 +1,12 @@
+# C++ / build outputs
+*.exe
+*.o
+*.obj
+*.pdb
+*.ilk
+/build/
+/bin/
+/out/
+
+/.vscode/
+/.idea/
