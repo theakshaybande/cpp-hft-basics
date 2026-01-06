@@ -32,3 +32,12 @@ I currently compile from the command line. Example with `g++`:
 ```bash
 g++ -O3 -std=c++20 Chapter_01_Intro/latency_test.cpp -o build/latency_test
 ./build/latency_test
+```
+
+## Future Steps (2026)
+
+- Implement a minimal UDP market data feed parser (ITCH-like).
+- Add a ring-buffer based event pipeline and measure end-to-end latency.
+- Build a small lock-free order book core with unit tests.
+- Create a reproducible benchmarking harness (pinning, warmup, histograms).
+- Explore kernel-bypass and zero-copy networking options (DPDK, io_uring).
